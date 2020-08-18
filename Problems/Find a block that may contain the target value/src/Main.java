@@ -48,6 +48,7 @@ class Main {
         }
         if (noBound) {
             for (int i = 0; i < array.length; i++) {
+                if (target)
                 if (array[i] > target) {
                     if (array[i - 1] < target) {
                         System.out.println(i - 1 + " " + i);
